@@ -3,36 +3,73 @@
     flex-direction: column;
     background-color: skyblue;
     padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
     
 }
 
 .container{
     display: flex;
-    align-items: flex-start;
-    padding: 25px;
+    justify-content: center;
+    padding: 3px;
     
 }
 
 
 .content{
-    display: block;
-    
-    align-content: space-between;
-    margin: auto;
-    padding: auto;
+    display: flex; 
+    flex-direction: row;  
+   
+    justify-content: space-evenly;
 
 }
 
 .rCol{
-    align-self: flex-start;
     align-items: flex-end;
+    margin: 16px;
 
 }
 
 .rCol img {
-    height: 600px;
+    width: auto;
     align-self: flex-start;
-    width: 400px;
+    height: 600px;
     border-right: 15px;
+    object-fit: contain;
+
+}
+
+.mCol{
+    display: inline-block;
+    box-sizing: border-box;
+    border-width: 15px;
+    margin: 16px;
+    padding: 22px;
+
+}
+
+.lCol {
+    margin: 16px;
+    padding: 23px;
+    justify-content: flex-start;
+
+}
+
+.navBar {
+    list-style: none;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 35px;
+    justify-content: space-around;
+    
+    
+}
+
+.navMember{
+    margin: 50px;
+    padding: 22px;
+    text-align: justify;
+    outline-color: black;
 
 }
