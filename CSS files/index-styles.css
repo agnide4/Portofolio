@@ -1,13 +1,38 @@
-.container{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+
+.header{
+    flex-direction: column;
+    background-color: skyblue;
+    padding: 10px;
     
 }
 
-.header{
-    background-color: skyblue;
-    padding: 70px;
+.container{
+    display: flex;
+    align-items: flex-start;
+    padding: 25px;
+    
+}
+
+
+.content{
+    display: block;
+    
+    align-content: space-between;
     margin: auto;
-    align-self: center;
+    padding: auto;
+
+}
+
+.rCol{
+    align-self: flex-start;
+    align-items: flex-end;
+
+}
+
+.rCol img {
+    height: 600px;
+    align-self: flex-start;
+    width: 400px;
+    border-right: 15px;
+
 }
