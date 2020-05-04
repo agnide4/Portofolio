@@ -38,3 +38,19 @@
     outline-color: black;
 
 }
+
+@media screen and (max-width: 600px) {
+    .navMember{
+        margin: 50px;
+      
+        text-align: justify;
+        outline-color: black;
+    }
+    .navBar {
+        list-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+        
+    }
+
+}
