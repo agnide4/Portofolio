@@ -1,4 +1,48 @@
 .container{
+    display: flex;
+    flex-direction: row-reverse;
     align-content: center;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1100px;
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 35px
+}
+
+.contact{
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    background-color: gray;
+    size: 15px;
+}
+
+.pure-control-group reqf{
+    font-style: italic;
+    margin-left: 50px;
+    display: inline-block;
+
+    
+}
+.pure-control-group text {
+    text-align: right;
+}
+
+
+.navBar {
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 35px;
+    justify-content: space-around;
+    
+    
+}
+
+.navMember{
+    margin: 35px;
+    padding: 22px;
+    text-align: justify;
+    outline-color: black;
+
 }
