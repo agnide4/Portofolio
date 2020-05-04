@@ -13,15 +13,17 @@
 .contact{
     display: inline-block;
     color: black;
-    font-size: 18px;
-    background-color: gray;
+    font-size: 20px;
+    background-color: lightgray;
     size: 15px;
+    width: 600px;
 }
 
 .pure-control-group reqf{
     font-style: italic;
-    margin-left: 50px;
+    
     display: inline-block;
+    margin-right: 50px;;
 
     
 }
