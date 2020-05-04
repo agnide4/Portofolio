@@ -1,0 +1,40 @@
+
+.header{
+    align-self: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 25px;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+}
+
+.rCol{
+    width: 900px;
+    height: 800px;
+}
+
+
+.navBar {
+    list-style: none;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 35px;
+    justify-content: space-around;
+    
+    
+}
+
+.navMember{
+    margin: 50px;
+    padding: 22px;
+    text-align: justify;
+    outline-color: black;
+
+}
