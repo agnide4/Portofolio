@@ -38,17 +38,30 @@
 
 @media screen and (max-width: 600px) {
     .navMember{
-        margin: 05px;
-        text-align: justify;
+        
         outline-color: black;
-        
-    }
+        margin: 5px;
+        padding: 5px;
+        text-align: left;  
+    
+}
     .navBar {
-        list-style: none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-            
-        
-    }
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    justify-content: space-between;    
+    
+}
+
+
+     .header{
+    background-color: skyblue;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: inherit;
+    text-align: center;
+    padding-bottom: 0px;
+}
     .Images{
         width: 400px;
         align-self: right;
