@@ -42,7 +42,6 @@
 @media screen and (max-width: 600px) {
     .navMember{
         margin: 50px;
-      
         text-align: justify;
         outline-color: black;
     }
