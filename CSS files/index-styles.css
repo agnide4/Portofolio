@@ -73,3 +73,34 @@
     outline-color: black;
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .navMember{
+        outline-color: black;
+        margin: 5px;
+        padding: 5px;
+        text-align: left;
+        
+    }
+
+    .navBar {
+        list-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    }
+
+
+    .rCol img{
+        width: 150px;
+        height: 200px;
+        
+    }
+
+    .mCol p {
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    
+}
