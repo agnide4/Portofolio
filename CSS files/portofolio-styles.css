@@ -68,3 +68,13 @@
     }
 
 }
+
+
+.footer{
+    background-color: lightgreen;
+    align-self: center;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
