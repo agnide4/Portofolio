@@ -1,10 +1,28 @@
 
-.header{
-    align-self: center;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding: 25px;
 
+.jumbotron{
+    display: flex;
+    height: 95px;
+    width: auto;   
+}
+
+.page-header{
+    display: flex;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    padding-bottom: 25px;
+    
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -175px;
+    align-self: center;
+    margin-top: 15px;
+   
 }
 
 

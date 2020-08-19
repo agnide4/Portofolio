@@ -1,4 +1,31 @@
 
+.jumbotron{
+    display: flex;
+    height: 95px;
+    width: auto;   
+}
+
+.page-header{
+    display: flex;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    padding-bottom: 25px;
+    
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -175px;
+    align-self: center;
+    margin-top: 15px;
+   
+}
+
+
+
 .header{
     flex-direction: column;
     background-color: skyblue;
@@ -44,8 +71,8 @@
     display: inline-block;
     box-sizing: border-box;
     border-width: 15px;
-    margin: 16px;
-    padding: 22px;
+    margin: px;
+    padding: 10px;
 
 }
 

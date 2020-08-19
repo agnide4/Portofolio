@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="CSS files//index-styles.css" rel="stylesheet">
     <title>Welcome to my page</title>
 </head>
 <body>
     <!--Header Row covering entire page width-->
-    <div class="header">
-        <h1>
-            Please allow me to welcome you onto my page.
-            
-        </h1>
-
-    </div>
+    
+    
     <!--Main container-->
-    <div class="container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <div class="page-header">
+                        <h1>Welcome to SamYard</h1>
+                    </div>
+                    
+                    <nav class="navbar navbar-inverse navbar-right">
+                        <div class="container-fluid">
+                          <div class="navbar-header">
+                            <a class="navbar-brand" href="#">WebSiteName</a>
+                          </div>
+                          <ul class="nav navbar-nav">
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="./portofolio.html">Portofolio</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                </div>
+            
+
+            </div>
+        </div>
+    
         
         <!--Main body content divided into 2 columns -->
        <div class="content">
@@ -34,18 +55,6 @@
                    Thanks for visiting!
                </p>
            </div>
-            
-           <div class="lCol">
-               <ul class= "navBar">
-                   <li class="navMember"><a href="index.html">About Me</a></li>
-                   <br>
-                   <li class="navMember"><a href="portofolio.html">My Portofolio</a></li>
-                   <br>
-                   <li class="navMember"><a href="contact.html">Contact Me</a></li>
-               </ul>
-           </div>
-           
-       </div>
 
     </div>
 
@@ -60,4 +69,7 @@
     </div>
     
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
