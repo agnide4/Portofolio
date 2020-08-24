@@ -22,3 +22,17 @@
     margin-top: 15px;
    
 }
+
+.proofs:hover{
+    cursor:pointer;
+    font-weight: bold;
+    
+    text-align: right;
+
+}
+
+iframe{
+    outline: none;
+    width: 100%;
+    height: 400px;
+  }
