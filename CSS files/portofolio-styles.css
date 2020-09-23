@@ -33,6 +33,14 @@
     margin: auto;
 }
 
+.carousel-caption{
+    background-color: gray;
+    
+}
+.carousel-caption h4{
+    color: #000;
+    
+}
 .rCol{
     width: 900px;
     height: 800px;

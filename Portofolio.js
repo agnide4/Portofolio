@@ -3,28 +3,33 @@ const proofs = $(".proofs")
 
 
 proofs.hover(function(){
-   
+    let frames = $(".pdf")
+    if (frames.length != 0){
+        $(".pdf").remove()  
+    }
     let val = $(this).attr("src")
     let pdf = $('<iframe></iframe>').attr('src',val)
     pdf.addClass("pdf")
     $(".intro").hide()
-    $(".learning").empty()
     $(".learning").after(pdf)
+    $(".learning").text("Go back to Learning Journey")
     
+
 
 },
 function(){
-    const frames = $(".pdf")
-    frames.on("click", function(event){
-        console.log("out")
-        if (frames !== event.target){
-            console.log("in")
-            $(".pdf").remove()   
-            $(".intro").show()
-        }
-        
-    })
+   // $(".pdf").remove()   
+   // $(".intro").show()
     
 })
+
+let journey = $(".learning").val()
+console.log()
+if (journey === "Go back to Learning Journey"){
+    $(".learning").on("click", function(){
+        $(".pdf").remove()   
+        $(".intro").show()
+    })
+}
 
 
