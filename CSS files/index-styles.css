@@ -101,6 +101,10 @@
 
 }
 
+.intro {
+    font-family: 'ABeeZee';font-size: 22px;
+}
+
 .footer{
     background-color: lightgreen;
     align-self: center;
@@ -141,8 +145,12 @@
     .mCol p {
         margin-right: 0px;
         margin-left: 0px;
+        font-family: 'ABeeZee';
+        font-size: 22px;
 
     }
+
+    
 
     
 }

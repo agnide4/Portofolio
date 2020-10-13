@@ -36,12 +36,14 @@
 }
 
 .contact{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     color: black;
     font-size: 20px;
     background-color: lightgray;
     size: 15px;
     width: 600px;
+    margin-left: 150px;
 }
 
 .pure-control-group reqf{
@@ -109,5 +111,6 @@
         padding-bottom: 0px;
     }
 
+    
     
 }

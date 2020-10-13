@@ -18,18 +18,14 @@ proofs.hover(function(){
 
 },
 function(){
-   // $(".pdf").remove()   
-   // $(".intro").show()
+    $("#aboutMe").on("click", function(){
+        console.log("clicked")
+        $(".pdf").remove()   
+        $(".intro").show()
+        $(".learning").text("My Learning Journey")
+    })
     
 })
 
-let journey = $(".learning").val()
-console.log()
-if (journey === "Go back to Learning Journey"){
-    $(".learning").on("click", function(){
-        $(".pdf").remove()   
-        $(".intro").show()
-    })
-}
 
 
